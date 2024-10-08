@@ -79,28 +79,28 @@ Obfuscated Usenet Posting Script by dystopia2017 is marked with CC0 1.0
 Universal. Do what every you like with it. 
  
 **Credits:** <br>
-Program Used: 7za.exe is the 7zip CLI from Igor Pavlov 
-Project Page: https://www.7-zip.org/ 
-License Used: "GNU LGPL" as main license for most of the code 
-License Used: "BSD 3-clause License" for some code 
-License Used: "BSD 2-clause License" for some code 
+Program Used: 7za.exe is the 7zip CLI from Igor Pavlov <br>
+Project Page: https://www.7-zip.org/<br>
+License Used: "GNU LGPL" as main license for most of the code <br>
+License Used: "BSD 3-clause License" for some code <br>
+License Used: "BSD 2-clause License" for some code <br>
  
-Program Used: bw.exe is the Bitwarden CLI client from Bitwarden. 
-Project Page: https://github.com/bitwarden 
-License Used: GPLv3 
+Program Used: bw.exe is the Bitwarden CLI client from Bitwarden. <br>
+Project Page: https://github.com/bitwarden <br>
+License Used: GPLv3 <br>
  
-Program Used: du.exe, sed.exe, sort.exe, touch.exe are cli apps from GNU. 
-Project Page: https://www.gnu.org/software/coreutils/ 
-License Used: GPLv3 
+Program Used: du.exe, sed.exe, sort.exe, touch.exe are cli apps from GNU. <br>
+Project Page: https://www.gnu.org/software/coreutils/ <br>
+License Used: GPLv3 <br>
  
-Program Used: fart.exe (Find and Replace Text) a CLI app from Lionello Lunesu. 
-Project Page: https://github.com/lionello/fart-it 
-License Used: GPLv2 
+Program Used: fart.exe (Find and Replace Text) a CLI app from Lionello Lunesu. <br>
+Project Page: https://github.com/lionello/fart-it <br>
+License Used: GPLv2 <br>
  
-Program Used: nyuu.exe is a CLI binary usenet poster by Anime Tosho 
-Project Page: https://github.com/animetosho/Nyuu 
-License Used: CC0 
+Program Used: nyuu.exe is a CLI binary usenet poster by Anime Tosho <br>
+Project Page: https://github.com/animetosho/Nyuu <br>
+License Used: CC0 <br>
  
-Program Used: par2j64.exe is a CLI parity file tool from Yutaka Sawada. 
-Project Page: https://hp.vector.co.jp/authors/VA021385/ 
-License Used: GPLv3 
+Program Used: par2j64.exe is a CLI parity file tool from Yutaka Sawada. <br>
+Project Page: https://hp.vector.co.jp/authors/VA021385/ <br>
+License Used: GPLv3 <br>
