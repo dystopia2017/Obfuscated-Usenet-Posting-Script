@@ -1,16 +1,7 @@
 **Obfuscated Usenet Posting Script v0.3 (OUPS_v0.3) by dystopia2017**
  
 **About:** <br>
-OUPS is a simple Windows batch script that ties together a few CLI applications 
-and makes Obfuscated posting to usenet simple. Each post will have a random and 
-unique file name, directory name, poster name and subject. Each post will 
-have a random and unique 127 character password. The archives have encrypted 
-filenames. The usenet group that will be used for posting will be a random 
-choice from the ten largest groups. After posting the only way you can access 
-the content of the posts is with the nzb as this is the only place the password 
-is stored, so keep them safe. 7zip is the default tool for creating the split 
-volume archives, but rar is supported if WinRAR is installed on your system. 
-Upto 99,999 files or directories can be queued up for posting. 
+OUPS is a simple Windows batch script that ties together a few CLI applications and makes Obfuscated posting to usenet simple. Each post will have a random and unique file name, directory name, poster name and subject. Each post will have a random and unique 127 character password with encrypted filenames. The usenet group that will be used for posting will be a random choice from the ten largest groups. After posting the only way you can access the content of the posts is with the nzb as this is the only place the password is stored, so keep them safe. 7zip is the default tool for creating the split volume archives, but rar is supported if WinRAR is installed on your system. Upto 99,999 files or directories can be queued up for posting.
  
 **Setup:** <br>
 The only thing you need to setup is your usenet server, desired port, username 
