@@ -1,6 +1,8 @@
-Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3) by dystopia2017 
+**Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3)**
+**by dystopia2017**
  
 **About:**
+
 OUPS is a simple Windows batch script that ties together a few CLI applications 
 and makes Obfuscated posting to usenet simple. Each post will have random and 
 unique file names, directory names, poster names and subjects. Each post will 
@@ -13,6 +15,7 @@ volume archives, but rar is supported if WinRAR is installed on your system.
 Upto 99,999 files or directories can be queued up for posting. 
  
 **Setup:**
+
 The only thing you need to setup is your usenet server, desired port, username 
 and password, these need to be entered into the Usenet_Login.bat file located in
 the Apps dir. "X:\_OUPS_\_Toolset_\Apps" below is an example, make sure you put 
@@ -24,6 +27,7 @@ set user="my_username"
 set pass="my_password" 
  
 **Normal Usage:**
+
 OUPS accepts either a file or a directory as an input. Place your input in the 
 same directory as the script e.g. X:\_OUPS_\ and then Double click the script to
 open it. With the script open type in the name of the input file or directory to
@@ -31,11 +35,13 @@ be posted. You can type a few letters of the input name then hit tab to auto
 complete the name. 
  
 **Automated Usage:**
+
 If you have lots of files or directories to post, you can place them all in the 
 _Process_ directory. Then when you open the script, each item in the _Process_ 
 directory will be used. 
  
 **Process:**
+
 In both Normal and Automated usage the input file or directory is first moved to
 a directory with a random unique name here "T:\_OUPS_\_Toolset_\Posting" then 
 this directory is added to a split volume archive here with a random filename, 
@@ -54,6 +60,7 @@ in "X:\_OUPS_\_Toolset_\NZBs" The script will then post the next item in the
 queue, or announce that posting is complete if no more items exist in the queue.
  
 **Settings:**
+
 There are three user settings that you can change. If you open the script in a 
 text editor like notepad you will see this section: 
  
@@ -78,10 +85,12 @@ The values for zcom are: 0 (No Compression) to 9 (Best Compression)
 The higher values have diminishing returns and longer processing time. 
  
 **License:** 
+
 Obfuscated Usenet Posting Script by dystopia2017 is marked with CC0 1.0 
 Universal. Do what every you like with it. 
  
 **Credits:**
+
 Program Used: 7za.exe is the 7zip CLI from Igor Pavlov 
 Project Page: https://www.7-zip.org/ 
 License Used: "GNU LGPL" as main license for most of the code 
