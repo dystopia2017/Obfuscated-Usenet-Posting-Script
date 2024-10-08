@@ -45,9 +45,8 @@ created with Multipar. Then this directory will be added to a numbered queue
 file in `X:\_OUPS_\_Toolset_\Queue`. You can then add more files or directories 
 to the queue following the above steps. When you are ready to post the queue you
 type `a` or `run` in the script. It will then begin the posting process using 
-nyuu. Each post has a random poster name. As the files are being posted nyuu is 
-also checking they are posted correctly, and will reposted any damaged or 
-incomplete articles it sees. After a post is finnished the files will be moved 
+nyuu. Each post has a random poster name. As the files are being posted nyuu checks
+the posts are ok, and will repost any damaged or incomplete articles it sees. After a post is finnished the files will be moved 
 from `X:\_OUPS_\_Toolset_\Posting` to `X:\_OUPS_\_Toolset_\Posted` as will the 
 queue file that was in use. Finally an nzb with the password used will be output
 in `X:\_OUPS_\_Toolset_\NZBs` The script will then post the next item in the 
