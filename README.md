@@ -1,7 +1,6 @@
 **Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3) by dystopia2017**
  
-**About:**
-
+**About:**<br>
 OUPS is a simple Windows batch script that ties together a few CLI applications 
 and makes Obfuscated posting to usenet simple. Each post will have random and 
 unique file names, directory names, poster names and subjects. Each post will 
