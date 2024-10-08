@@ -18,10 +18,10 @@ and password, these need to be entered into the Usenet_Login.bat file located in
 the Apps dir. `X:\_OUPS_\_Toolset_\Apps` below is an example, make sure you put 
 your entries between the " " double quotes and do not remove them. 
  
-`set serv="news.newsserver.com"
-set port="563"
-set user="my_username"
-set pass="my_password"`
+`set serv="news.newsserver.com"`
+`set port="563"`
+`set user="my_username"`
+`set pass="my_password"`
  
 **Normal Usage:** <br>
 OUPS accepts either a file or a directory as an input. Place your input in the 
