@@ -44,7 +44,7 @@ the max password length supported by WinRAR). Then 10% par2 parity files are
 created with Multipar. Then this directory will be added to a numbered queue 
 file in `X:\_OUPS_\_Toolset_\Queue`. You can then add more files or directories 
 to the queue following the above steps. When you are ready to post the queue you
-type "a" or "run" in the script. It will then begin the posting process using 
+type `a` or `run` in the script. It will then begin the posting process using 
 nyuu. Each post has a random poster name. As the files are being posted nyuu is 
 also checking they are posted correctly, and will reposted any damaged or 
 incomplete articles it sees. After a post is finnished the files will be moved 
