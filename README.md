@@ -15,42 +15,42 @@ Upto 99,999 files or directories can be queued up for posting.
 **Setup:** <br>
 The only thing you need to setup is your usenet server, desired port, username 
 and password, these need to be entered into the Usenet_Login.bat file located in
-the Apps dir. "X:\_OUPS_\_Toolset_\Apps" below is an example, make sure you put 
+the Apps dir. `X:\_OUPS_\_Toolset_\Apps` below is an example, make sure you put 
 your entries between the " " double quotes and do not remove them. 
  
-set serv="news.newsserver.com"<br>
+`set serv="news.newsserver.com"<br>
 set port="563"<br>
 set user="my_username"<br>
-set pass="my_password"<br>
+set pass="my_password"<br>`
  
 **Normal Usage:** <br>
 OUPS accepts either a file or a directory as an input. Place your input in the 
-same directory as the script e.g. X:\_OUPS_\ and then Double click the script to
+same directory as the script e.g. `X:\_OUPS_\` and then Double click the script to
 open it. With the script open type in the name of the input file or directory to
 be posted. You can type a few letters of the input name then hit tab to auto 
 complete the name. 
  
 **Automated Usage:** <br>
 If you have lots of files or directories to post, you can place them all in the 
-_Process_ directory. Then when you open the script, each item in the _Process_ 
+`_Process_` directory. Then when you open the script, each item in the `_Process_`
 directory will be used. 
  
 **Process:** <br>
 In both Normal and Automated usage the input file or directory is first moved to
-a directory with a random unique name here "T:\_OUPS_\_Toolset_\Posting" then 
+a directory with a random unique name here `X:\_OUPS_\_Toolset_\Posting` then 
 this directory is added to a split volume archive here with a random filename, 
 the archive has filename encryption, and uses a 127 character password (This is 
 the max password length supported by WinRAR). Then 10% par2 parity files are 
 created with Multipar. Then this directory will be added to a numbered queue 
-file in "X:\_OUPS_\_Toolset_\Queue". You can then add more files or directories 
+file in `X:\_OUPS_\_Toolset_\Queue`. You can then add more files or directories 
 to the queue following the above steps. When you are ready to post the queue you
 type "a" or "run" in the script. It will then begin the posting process using 
 nyuu. Each post has a random poster name. As the files are being posted nyuu is 
 also checking they are posted correctly, and will reposted any damaged or 
 incomplete articles it sees. After a post is finnished the files will be moved 
-from "X:\_OUPS_\_Toolset_\Posting" to "X:\_OUPS_\_Toolset_\Posted" as will the 
+from `X:\_OUPS_\_Toolset_\Posting` to `X:\_OUPS_\_Toolset_\Posted` as will the 
 queue file that was in use. Finally an nzb with the password used will be output
-in "X:\_OUPS_\_Toolset_\NZBs" The script will then post the next item in the 
+in `X:\_OUPS_\_Toolset_\NZBs` The script will then post the next item in the 
 queue, or announce that posting is complete if no more items exist in the queue.
  
 **Settings:** <br>
@@ -65,7 +65,7 @@ set zcom=0
 These three vars can be changed, If you change "set urar=No" to "set urar=Yes" 
 It will enable using WinRAR's rar.exe cli tool, This functionality requires you 
 to have WinRAR installed on your system for it to work. It will check if it is 
-installed in "%PROGRAMFILES%\WinRAR\rar.exe" If found then rar will be used for 
+installed in `%PROGRAMFILES%\WinRAR\rar.exe` If found then rar will be used for 
 the split volume process. If it's not found, then 7zip will be used regardless 
 of what you "set urar=" to. 
  
