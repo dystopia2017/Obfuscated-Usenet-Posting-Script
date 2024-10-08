@@ -70,10 +70,9 @@ of what you `set urar=` to.
 `set rcom=0` and `set zcom=0` are compression levels for rar and 7zip. They 
 default to 0 which is no compression, aka store. This is the fastest way to 
 create an archive and usually what you want if you are posting non compressable 
-content like video or audio. If you would like to change these values you can. <br>
+content like video or audio. You can change these values, The higher values have diminishing returns and longer processing time. <br>
 `The values for rcom are: 0 (No Compression) to 5 (Best Compression)` <br>
 `The values for zcom are: 0 (No Compression) to 9 (Best Compression)` <br>
-The higher values have diminishing returns and longer processing time. 
  
 **License:** <br>
 Obfuscated Usenet Posting Script by dystopia2017 is marked with CC0 1.0 
