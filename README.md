@@ -1,4 +1,4 @@
-**Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3) by dystopia2017**
+**Obfuscated Usenet Posting Script v0.3 (OUPS_v0.3) by dystopia2017**
  
 **About:** <br>
 OUPS is a simple Windows batch script that ties together a few CLI applications 
