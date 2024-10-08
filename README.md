@@ -1,6 +1,4 @@
-**Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3)**
-
-**by dystopia2017**
+**Obfuscated Usenet Posting Script v0.3 (aka OUPS_v0.3) by dystopia2017**
  
 **About:**
 
