@@ -71,8 +71,8 @@ of what you `set urar=` to.
 default to 0 which is no compression, aka store. This is the fastest way to 
 create an archive and usually what you want if you are posting non compressable 
 content like video or audio. If you would like to change these values you can. 
-The values for rcom are: 0 (No Compression) to 5 (Best Compression) 
-The values for zcom are: 0 (No Compression) to 9 (Best Compression) 
+`The values for rcom are: 0 (No Compression) to 5 (Best Compression)` <br>
+`The values for zcom are: 0 (No Compression) to 9 (Best Compression)` <br>
 The higher values have diminishing returns and longer processing time. 
  
 **License:** <br>
