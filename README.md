@@ -53,8 +53,7 @@ in `X:\_OUPS_\_Toolset_\NZBs` The script will then post the next item in the
 queue, or announce that posting is complete if no more items exist in the queue.
  
 **Settings:** <br>
-There are three user settings that you can change. If you open the script in a 
-text editor like notepad you will see this section: 
+If you open the script in a text editor you will see this section
  
 `:Set_Script_Variables` <br>
 `set urar=No` <br>
