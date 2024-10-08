@@ -38,7 +38,7 @@ directory will be used.
 **Process:** <br>
 In both Normal and Automated usage the input file or directory is first moved to
 a directory with a random unique name in `X:\_OUPS_\_Toolset_\Posting` then 
-this directory is added to a split volume archive here with a random filename, 
+this directory is added to a split volume archive with a random filename, 
 the archive has filename encryption, and uses a 127 character password (This is 
 the max password length supported by WinRAR). Then 10% par2 parity files are 
 created with Multipar. Then this directory will be added to a numbered queue 
