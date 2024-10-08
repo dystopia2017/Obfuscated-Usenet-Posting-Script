@@ -68,7 +68,7 @@ the split volume archive. If it's not found, then 7zip will be used regardless
 of what you `set urar=` to. 
  
 `set rcom=0` and `set zcom=0` are compression levels for rar and 7zip. They 
-default to 0 which is no compression, aka store. This is the fastest way to 
+default to 0 which is no compression. This is the fastest way to 
 create an archive and usually what you want if you are posting non compressable 
 content like video or audio. You can change these values, The higher values have diminishing returns and longer processing time. <br>
 `The values for rcom are: 0 (No Compression) to 5 (Best Compression)` <br>
