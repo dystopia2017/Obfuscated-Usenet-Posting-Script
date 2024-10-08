@@ -2,8 +2,8 @@
 
 :Set_Script_Variables
 set urar=No
-set rcom=5
-set zcom=9
+set rcom=0
+set zcom=0
 
 :: urar is the "Use Rar" option, set to Yes to use rar.exe to handle packing.
 :: Winrar needs to be installed on your system for this to work, if Winrar is
