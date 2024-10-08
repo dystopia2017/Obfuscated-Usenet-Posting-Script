@@ -60,14 +60,14 @@ If you open the script in a text editor you will see this section
 `set rcom=0` <br>
 `set zcom=0` <br>
  
-These three vars can be changed, If you change "set urar=No" to "set urar=Yes" 
+These three vars can be changed, If you change `set urar=No` to `set urar=Yes` 
 It will enable using WinRAR's rar.exe cli tool, This functionality requires you 
 to have WinRAR installed on your system for it to work. It will check if it is 
 installed in `%PROGRAMFILES%\WinRAR\rar.exe` If found then rar will be used for 
 the split volume process. If it's not found, then 7zip will be used regardless 
 of what you "set urar=" to. 
  
-"set rcom=0" and "set zcom=0 are compression levels for rar and 7zip. They 
+`set rcom=0` and `set zcom=0` are compression levels for rar and 7zip. They 
 default to 0 which is no compression, aka store. This is the fastest way to 
 create an archive and usually what you want if you are posting non compressable 
 content like video or audio. If you would like to change these values you can. 
