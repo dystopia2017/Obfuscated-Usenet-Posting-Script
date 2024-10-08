@@ -56,10 +56,10 @@ queue, or announce that posting is complete if no more items exist in the queue.
 There are three user settings that you can change. If you open the script in a 
 text editor like notepad you will see this section: 
  
-:Set_Script_Variables 
-set urar=No 
-set rcom=0 
-set zcom=0 
+`:Set_Script_Variables` <br>
+`set urar=No` <br>
+`set rcom=0` <br>
+`set zcom=0` <br>
  
 These three vars can be changed, If you change "set urar=No" to "set urar=Yes" 
 It will enable using WinRAR's rar.exe cli tool, This functionality requires you 
