@@ -14,7 +14,7 @@ Upto 99,999 files or directories can be queued up for posting.
  
 **Setup:** <br>
 The only thing you need to setup is your usenet server, desired port, username 
-and password, these need to be entered into the Usenet_Login.bat file located in
+and password, these need to be entered into the `Usenet_Login.bat` file located in
 the Apps dir. `X:\_OUPS_\_Toolset_\Apps` below is an example, make sure you put 
 your entries between the " " double quotes and do not remove them. 
  
