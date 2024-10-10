@@ -60,7 +60,7 @@ echo What is the input file or directory? (Type "a" or "run" to start the queue)
 set /p inpt=
 :sed
 echo "%inpt%">>%Temp%\inptfile.txt
-sed -i "s/\"//g" %Temp%\inptfile.txt
+%Apps%\sed -i "s/\"//g" %Temp%\inptfile.txt
 < %Temp%\inptfile.txt (set /p inpt=)
 if exist %Temp%\inptfile.txt (erase /q %Temp%\inptfile.txt)
 if exist %Work%\sed??????    (erase /q    %Work%\sed??????)
@@ -173,7 +173,7 @@ echo timeout 3 >>"%Qdir%\%qval%_%inpt%.queue.bat"
 :Clear_All_Variables_And_Reload_Script
 title %Name% ^| Clearing Job Variables
 set Tool=null&&set Apps=null&&set Nzbd=null&&set Done=null&&set Post=null
-set Temp=null%%set Work=null&&set serv=null&&set grps=null&&set suba=null
+set Temp=null&&set Work=null&&set serv=null&&set grps=null&&set suba=null
 set user=null&&set pass=null&&set inpt=null&&set rpwd=null&&set flnm=null
 set rand=null&&set from=null&&set subb=null&&set size=null&&set pnpt=null
 cls&&goto Set_Script_Variables
