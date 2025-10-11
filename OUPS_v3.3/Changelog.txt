@@ -1,0 +1,49 @@
+Obfuscated Usenet Posting Script v3.3 by dystopia2017
+
+Changelog:
+Fixed..: When using RAR for archives the "-ep" switch has been removed. This   
+         maintains the directory structure when a source has subdirectories.   
+Fixed..: Variables are set to nothing to clear them e.g. "set var=" before they
+         were being set to the literal string "null"                           
+Fixed..: Added three missing DLLs: libiconv2.dll, libintl3.dll and regex2.dll  
+         these are required by the script and are part of GNU's CoreUtils. I   
+         had them in my PATH already so did not notice they were missing.      
+-                                                                              
+Added..: A check that you have set your News Server details. If missing an     
+         error will be shown explaining how to enter your settings.            
+Added..: A random string generator "String_Gen.bat" in pure batch.             
+Added..: Support for a popular indexer, with auto upload of NZBs via it's api. 
+Added..: NZB files are zipped with max compression after they've been created. 
+Added..: cURL has been added to the Apps directory, it is used to auto submit  
+         NZB files to indexing sites after a post is completed.                
+Added..: par2cmdline-turbo by Anime Tosho, it is faster and more efficient.    
+Added..: cURL              license file has been added to the "Licenses" dir.  
+Added..: par2cmdline-turbo license file has been added to the "Licenses" dir.  
+Added..: libiconv2         license file has been added to the "Licenses" dir.  
+Added..: libintl3          license file has been added to the "Licenses" dir.  
+Added..: regex2            license file has been added to the "Licenses" dir.  
+-                                                                              
+Changed: Removed the date code as it's no longer used.                         
+Changed: Rewrote the comments for the user variables that can be changed.      
+Changed: Increased the groups that will be chosen for posting from 10 to 60.   
+Changed: The split archives will now target 10 splits instead of 40.           
+Changed: News server login is now in the main script and not a sub script.     
+Changed: The main script has been split into subscripts that get called.       
+Changed: Moved the "Create Directory" section of code to be earlier in the     
+         script, it makes more sense to mkdir, right after the strings have    
+         been generated.                                                       
+Changed: Removed Bitwardens CLI. It has been replaced with my custom           
+         String_Gen.bat script. This maintains functionality while dramatically
+         reducing the release filesize.                                        
+Changed: Removed par2j64. It has been replaced with par2cmdline-turbo by Anime 
+         Tosho which is much faster and more stable with larger split volumes. 
+Changed: Removed Bitwarden's license file from the "Licenses" directory.       
+Changed: Removed par2j64's   license file from the "Licenses" directory.       
+Changed: The default password length has been reduced from 127 characters to 40
+         characters. This is because large password break support with some    
+         popular indexers.                                                     
+Changed: Removed the "if exist" check and deletion of the "password.txt",      
+         "filename.txt" and "randomst.txt" text files. They are no longer used.
+Changed: Passwords now have special characters to increase the keyspace to 84  
+         characters. The average crack time for these 40 character passwords is
+         "55 trillion trillion trillion trillion trillion years"               
