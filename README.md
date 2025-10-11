@@ -21,7 +21,7 @@ You can optionally configure the following variables in `oups_v3.3.bat`
 Is the "Use Rar" option, set to `Yes` to use `rar.exe` to handle packing. If WinRAR is not installed on the system in %PROGRAMFILES%\WinRAR then packing will fall back `7-Zip` regardless what you set the `urar` variable to.
 
 `rcom`<br>
-Is the `RAR` Compression Level, the default is `0`, which is `m0` or `store` You can change it to any value up to `5`, which is `m5` the best compression. Keep in mind using compression will slow down the process and will offer no benefit for media files such as videos and music.
+Is the `RAR` Compression Level, the default is `0`, which is `m0` or `store` You can change it to any value up to `5`, which is `m5` or `best`. Keep in mind using compression will slow down the process and will offer no benefit for media files such as videos and music.
 
 `zcom`<br>
 Is the `7-Zip` Compression Level the default is `0`, which is no compression. You can change it to any value up to `9`, which is the best compression. Keep in mind using compression will slow down the process and will offer no benefit for media files such as videos and music.
