@@ -3,7 +3,9 @@ by dystopia2017**
                                                                                
 **About**                                                                         
 OUPS is a simple Windows batch script that ties together a few CLI applications and makes obfuscated posting to Usenet simple. Each post will have a random and unique file name, directory name, poster name, and subject. Each post will have a random and unique 40-character password with obfuscated filenames. The newsgroup that will be used for posting will be a random choice from the sixty largest groups. After posting the only way you can access the content of the posts is with the NZB as this is the only place the password is stored, so keep it safe. `7-Zip` is the default tool for creating the split-volume archives. `RAR` is supported if WinRAR is installed on your system. Up to 99,999 files or directories can be queued up for posting. As of version 3.3 basic indexer api support has been added for a popular indexer.                                  
-                                                                               
+
+https://github.com/user-attachments/assets/f1e5fc27-e1be-4ad3-9ae5-369f26e35c40
+                                                                    
 **Setup**                                                                          
 First, download the release, as it has the files and folder structure set up correctly. The only thing you must configure is your news server, port, username, and password. These need to be entered into the main script `oups_v3.3.bat`. Below is an example, make sure you put your entries between the " " double quotes and do not remove them.                                      
 
@@ -43,7 +45,7 @@ I have added support for a popular indexer, If you use this functionality then t
                                                                                
 **Usage**                                                                          
 OUPS accepts either files or directories as inputs. Place your input files and  directories into the _Process_ directory. Then Double click the script to open it. The script will then begin, packaging up the files and directories ready to post. Your source directories and files will be moved to `_Source_` after processing is complete.                                                        
-                                                                               
+                                                                        
 **License**                                                                        
 `Obfuscated Usenet Posting Script v3.3` by dystopia2017 is marked with `CC0 1.0 Universal`. This license applies to every .bat script file included in this project. All other included binaries have their own licenses and are documented below.                                                                         
                                                                                
