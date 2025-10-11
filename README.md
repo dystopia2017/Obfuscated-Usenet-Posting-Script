@@ -7,10 +7,10 @@ OUPS is a simple Windows batch script that ties together a few CLI applications 
 **Setup**                                                                          
 First, download the release, as it has the files and folder structure set up correctly. The only thing you must configure is your news server, port, username, and password. These need to be entered into the main script `oups_v3.3.bat`. Below is an example, make sure you put your entries between the " " double quotes and do not remove them.                                      
 
-set serv="news.newsserver.com"
-set port="563"
-set user="my_username"
-set pass="my_password"
+set serv="news.newsserver.com"<br>
+set port="563"<br>
+set user="my_username"<br>
+set pass="my_password"<br>
                                                                                
 **Optional Settings**                                                              
 You can optionally configure the following variables in `oups_v3.3.bat`        
