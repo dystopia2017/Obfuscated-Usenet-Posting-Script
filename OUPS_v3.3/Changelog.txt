@@ -1,6 +1,22 @@
-Obfuscated Usenet Posting Script v3.3 by dystopia2017
-
-Changelog:
+Obfuscated Usenet Posting Script v3.8 - Changelog 2025.10.12:                  
+Fixed..: When using rar mode, rar4 was being used which is unsupported by the  
+         latest versions of WinRAR, Now rar5 is used which works fine with both
+         old and new versions.                                                 
+-                                                                              
+Added..: The option to keep or erase old posted files, there is now a variable 
+         called "keep" in the main script, set to "Yes" to keep files or "No"  
+         to erase them. This affects your .queue.bat file, %inpt%.txt file, the
+         rar/7zip spit volume set and parity files. The input files/directories
+         remain untouched and will still be moved to the Source directory after
+         initial processing. The default is to remove these files after a post.
+-                                                                              
+Changed: Removed the 3 second timeout between posts.                           
+Changed: Moved the License file for OUPS to the "Licenses" dir.                
+Changed: Simplified the Job Queueing system, instead of echoing all the vars   
+         and then calling them with %%var%% in commands, I just echo them into 
+         the command directly.                                                 
+                                                                               
+Obfuscated Usenet Posting Script v3.3 - Changelog 2025.10.11:                  
 Fixed..: When using RAR for archives the "-ep" switch has been removed. This   
          maintains the directory structure when a source has subdirectories.   
 Fixed..: Variables are set to nothing to clear them e.g. "set var=" before they

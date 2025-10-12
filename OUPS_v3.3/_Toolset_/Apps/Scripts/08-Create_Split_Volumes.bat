@@ -7,5 +7,4 @@ if /i "%urar%"=="Yes" (goto Pack_With_rar) else (goto Pack_With_7za)
 goto endpack
 :Pack_With_7za
 %Apps%\7za a -v%vol% -mhe=on -mx=%zcom% -p"%rpwd%" "%Post%\%flnm%\%flnm%.7z" %Post%\%flnm%\%inpt%
-
 :endpack

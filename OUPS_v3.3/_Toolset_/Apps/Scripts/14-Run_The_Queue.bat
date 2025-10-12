@@ -12,7 +12,13 @@ ren "%oldvar%" "%newvar%"
 :resortqueue
 if not exist "%oldval%*.queue.bat" (erase /q "%Temp%\listqueue.txt")
 if not exist "%oldval%*.queue.bat" (call "%Qdir%\%newvar%")
+if /I %keep%==Yes (goto keep_old_queue_file) else (goto erase_old_queue_file)
+:keep_old_queue_file
 if not exist "%oldval%*.queue.bat" (move "%Qdir%\%newvar%" "%Done%\%donvar%")
+goto Continue
+:erase_old_queue_file
+if not exist "%oldval%*.queue.bat" (erase /q "%Qdir%\%newvar%")
+:Continue
 if not exist "%oldval%*.queue.bat" (goto Run_The_Queue)
 if exist "%oldval%*" (ren "%oldval%*" "%newval%*")
 set newval=%oldval%
