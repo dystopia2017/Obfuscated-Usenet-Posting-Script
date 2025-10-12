@@ -15,7 +15,7 @@ set urar=Yes
 set rcom=0
 set zcom=0
 set parp=10
-set asze=7000
+set asze=700
 set conn=10
 set keep=No
 :: urar is the "Use Rar" option, set to Yes to use rar.exe to handle packing.  
@@ -58,4 +58,5 @@ call %Scpt%\10-Check_For_Nfo.bat
 call %Scpt%\11-Set_Queue_Value.bat
 call %Scpt%\12-Queue_The_Job.bat
 call %Scpt%\13-Clear_All_Variables.bat
+
 goto Run
