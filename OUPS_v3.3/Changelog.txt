@@ -6,9 +6,10 @@ Fixed..: When using rar mode, rar4 was being used which is unsupported by the
 Added..: The option to keep or erase old posted files, there is now a variable 
          called "keep" in the main script, set to "Yes" to keep files or "No"  
          to erase them. This affects your .queue.bat file, %inpt%.txt file, the
-         rar/7zip spit volume set and parity files. The input files/directories
-         remain untouched and will still be moved to the Source directory after
-         initial processing. The default is to remove these files after a post.
+         rar/7zip split volume set and parity files. The input files and       
+         directories remain untouched and will still be moved to the Source    
+         directory after initial processing. The default is to remove these    
+         files after a post.                                                   
 -                                                                              
 Changed: Removed the 3 second timeout between posts.                           
 Changed: Moved the License file for OUPS to the "Licenses" dir.                
@@ -62,4 +63,5 @@ Changed: Removed the "if exist" check and deletion of the "password.txt",
          "filename.txt" and "randomst.txt" text files. They are no longer used.
 Changed: Passwords now have special characters to increase the keyspace to 84  
          characters. The average crack time for these 40 character passwords is
+
          "55 trillion trillion trillion trillion trillion years"               
