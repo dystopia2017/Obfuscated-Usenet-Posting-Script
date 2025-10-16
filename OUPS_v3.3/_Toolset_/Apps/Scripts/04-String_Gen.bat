@@ -17,7 +17,7 @@ call :Random_Number
 if not %rnum% LEQ 71 (goto Generate_Filename)
 call :LN_Characters rnum
 set flnm=%flnm%%rnum%
-if "%valu%"=="20" (set valu=1&&goto Generate_Random_String) else (set /a valu=valu+1&&goto Generate_Filename)
+if "%valu%"=="8" (set valu=1&&goto Generate_Random_String) else (set /a valu=valu+1&&goto Generate_Filename)
 
 :Generate_Random_String
 call :Random_Number
@@ -45,4 +45,5 @@ GOTO:EOF
 
 :Generation_Done
 set from="%rand:~0,4% %rand:~4,4%@%rand:~8,4%.%rand:~12,4%"
+
 set subb=- {%rand:~-20%} yEnc ({part}/{parts})
