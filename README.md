@@ -59,7 +59,7 @@ License Used: "GNU LGPL" as main license for most of the code.<br>
 License Used: "BSD 3-clause License" for some code.<br>
 License Used: "BSD 2-clause License" for some code.<br>
 
-Program Used: curl.exe is a networking tools by Daniel Stenberg.<br>
+Program Used: curl.exe is a networking tool by Daniel Stenberg.<br>
 Project Page: https://curl.se/<br>
 License Used: Custom License inspired by MIT/X<br>
 
