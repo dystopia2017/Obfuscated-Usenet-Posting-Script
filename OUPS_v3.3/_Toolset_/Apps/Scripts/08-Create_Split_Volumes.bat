@@ -3,7 +3,7 @@ title %Name% ^| Packing into %vol% Volumes
 
 :Rar_Check
 if /i not "%urar%"=="Yes" (goto Pack_With_7za)
-if exist %orar% (goto PaPack_With_RAR_Four) else (goto Pack_With_RAR_Five)
+if exist %orar% (goto Pack_With_RAR_Four) else (goto Pack_With_RAR_Five)
 
 :Pack_With_RAR_Four
 if not exist %orar%   (goto Pack_With_7za)
@@ -20,3 +20,4 @@ goto endpack
 goto endpack
 
 :endpack
+
