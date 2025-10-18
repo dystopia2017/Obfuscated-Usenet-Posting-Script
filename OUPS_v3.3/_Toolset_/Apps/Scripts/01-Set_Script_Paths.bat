@@ -10,4 +10,5 @@ set Done=%Tool%\Posted
 set Post=%Tool%\Posting
 set Qdir=%Tool%\Queue
 set Temp=%Tool%\Temp
+set orar="%PROGRAMFILES%\WinRAR\rar6.exe"
 set wrar="%PROGRAMFILES%\WinRAR\rar.exe"
